@@ -39,6 +39,10 @@ jobs:
         
       # run tests!
       - run: mvn integration-test
+       - run:
+          name: git pull Heroku
+          command: |
+               git pull https://heroku:$key@git.heroku.com/$app.git master
       - run:
           name: Deploy Master to Heroku
           command: |
