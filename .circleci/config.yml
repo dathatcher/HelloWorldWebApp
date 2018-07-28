@@ -42,5 +42,4 @@ jobs:
       - run:
           name: Deploy Master to Heroku
           command: |
-            git pull https://heroku:$key@git.heroku.com/$app.git master
-            git push https://heroku:$key@git.heroku.com/$app.git master
+               git push https://heroku:$key@git.heroku.com/$app.git master
