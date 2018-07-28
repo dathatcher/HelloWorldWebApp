@@ -42,7 +42,7 @@ jobs:
        - run:
           name: git pull Heroku
           command: |
-               git pull https://heroku:$key@git.heroku.com/$app.git master
+               git pull 
       - run:
           name: Deploy Master to Heroku
           command: |
