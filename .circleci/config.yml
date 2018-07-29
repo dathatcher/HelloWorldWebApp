@@ -38,11 +38,7 @@ jobs:
           key: v1-dependencies-{{ checksum "pom.xml" }}
         
       # run tests!
-      - run: mvn integration-test
-       - run:
-          name: git pull Heroku
-          command: |
-               git pull 
+      
       - run:
           name: Deploy Master to Heroku
           command: |
