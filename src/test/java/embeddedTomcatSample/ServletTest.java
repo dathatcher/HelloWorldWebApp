@@ -12,7 +12,7 @@ public class ServletTest {
 
 	@Test
 	public void greeterSaysHello() {
-		assertThat(greeter.sayHello(), containsString("Helo"));
+		assertThat(greeter.sayHello(), containsString("Hello"));
 			//test
 	}
 
