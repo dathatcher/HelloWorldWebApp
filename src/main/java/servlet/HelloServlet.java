@@ -23,5 +23,8 @@ public class HelloServlet extends HttpServlet {
         out.flush();
         out.close();
     }
+    public String sayHello() {
+        return "Hello world!!";
+    } 
 
 }
