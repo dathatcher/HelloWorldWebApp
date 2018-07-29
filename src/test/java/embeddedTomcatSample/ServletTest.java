@@ -12,8 +12,8 @@ public class ServletTest {
 
 	@Test
 	public void greeterSaysHello() {
-		assertThat(greeter.sayHello(), containsString("Hello"));
-		//test
+		assertThat(greeter.sayHello(), containsString("Helo"));
+			//test
 	}
 
 }
