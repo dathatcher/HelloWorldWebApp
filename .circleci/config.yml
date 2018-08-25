@@ -46,4 +46,4 @@ jobs:
       - run:
           name: Deploy Over SSH
           command: |
-            ssh -o "StrictHostKeyChecking no" dave@23.96.33.172 ll
+         #   ssh -o "StrictHostKeyChecking no" dave@23.96.33.172 ll
