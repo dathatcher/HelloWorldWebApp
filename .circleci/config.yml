@@ -45,5 +45,5 @@ jobs:
       #         git push https://heroku:$key@git.heroku.com/$app.git master
       - run:
           name: Deploy Over SSH
-          command: |
+     #     command: |
          #   ssh -o "StrictHostKeyChecking no" dave@23.96.33.172 ll
